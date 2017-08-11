@@ -95,7 +95,7 @@ for i in range(loop_length):
 			res_wdl.append(2)
 		if user_wdl == 'Draw':
 			res_wdl.append(3)
-		if user_wdl == 'lose'
+		if user_wdl == 'Lose':
 			res_wdl.append(5)
 	else:
 		res_wdl.append(0)
