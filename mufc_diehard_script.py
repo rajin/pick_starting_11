@@ -18,9 +18,9 @@ data_in = net_df(reponse_link)
 data_in = data_in.reset_index()
 loop_length = len(data_in['List your starting 11'])
 
-opponents = 'Crystal Palace'
+opponents = 'West Ham United'
 home = 'yes'
-week = '38'
+week = '1'
 
 ### Case 1 - 90min game
 col = ['Name','Selection','Selection pts','MOTM','MOTM pts','W_D_L','W_D_L pts','HT Score','HT pts','90 min Score','90 min pts','Red Cards','Rd card pts', 'Total Points']
