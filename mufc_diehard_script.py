@@ -9,8 +9,8 @@ def net_df(link):
 	return pd.read_csv(StringIO(data1))
 
 
-#reponse_link = 'https://docs.google.com/spreadsheets/d/1UaTBFRryqN2zz30zIRMmZTQmltQiuDB6V85bPQ9oke0/export?format=csv&id'
-reponse_link = 'https://docs.google.com/spreadsheets/d/1aKiVxMno1iXCvlSTJCqb_-uQ9v21GsoB1So-r8eqgrU/export?format=csv&id'
+###Downloading data from google spreadsheet using the google_sheet_id (which we cannot provide here for obvious reasons!)
+reponse_link = 'https://docs.google.com/spreadsheets/d/'+google_sheet_id+'/export?format=csv&id'
 
 #data_in = pd.read_csv('mufc_week1.csv')
 data_in = net_df(reponse_link)
